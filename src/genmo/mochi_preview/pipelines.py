@@ -5,7 +5,6 @@ from abc import ABC, abstractmethod
 from contextlib import contextmanager
 from functools import partial
 from typing import Any, Dict, List, Literal, Optional, Union, cast
-
 import numpy as np
 import ray
 import torch
